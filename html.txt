@@ -1,0 +1,54 @@
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2jLO63fixHFjhOCjhFQV-WwOEPEwxhJjATA&usqp=CAU"  height="120" width="900"/>
+<a href="https://baruipurhighschool.com/"> Visit our Website</a>
+<section> Contact us : 9876543210</section>
+<section> Email id: baruipurschool@gmail.com</section>
+<form>
+    <br>
+    <select name="class" height="5" width="5">
+        <option value="Class 1"> Class 1</option>
+        <option value="Class 2"> Class 2</option>
+        <option value="Class 3"> Class 3</option>
+        <option value="Class 4"> Class 4</option>
+        <option value="Class 5"> Class 5</option>
+        <option value="Class 6"> Class 6</option>
+        <option value="Class 7"> Class 7</option>
+        <option value="Class 8"> Class 8</option>
+        <option value="Class 9"> Class 9</option>
+        <option value="Class 10"> Class 10</option>
+    </select>
+    </br>
+    <br>
+    <select name="marks details">
+        <option value="unit test-1"> unit test-1 </option>
+        <option value="unit test-2"> unit test-2</option>
+        <option value="Quaterly"> Quaterly</option>
+        <option value="unit test-3"> unit test-3</option>
+        <option value="unit test-4"> unit test-4</option>
+        <option value="Half yearly"> Half yearly</option>
+        <option value="Annual "> Annual</option>
+    </select>
+    </br>
+    <table border="1"cellspacing="0" height="100" width="100">
+        <caption>
+            SELECT YOUR ROLE
+        </caption>
+        <tr>
+            <br>
+            <th>
+                <input type="radio" value="Student" >Student  
+            </th>
+            <th>
+                <img src="https://cdn5.vectorstock.com/i/1000x1000/84/29/student-girl-flat-style-beautiful-icon-avatar-eps-vector-14428429.jpg" height=70 width=60/>
+            </th>
+            </br>
+            <br>
+            <th>
+                <input type="radio" value="Teacher" >Teacher
+            </th>
+            <th>
+                <img src="https://5.imimg.com/data5/BM/WR/GLADMIN-70100492/teacher-login-portal-500x500.png" height="70" width="60"/>
+            </th>
+            </br>
+
+        </tr>
+    </table>

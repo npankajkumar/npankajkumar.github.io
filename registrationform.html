@@ -1,0 +1,183 @@
+<html>
+<head><title> Faculty Registration Form...</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <script src="lib/bootstrap/t1.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<style>
+.d1{
+border: 3px solid block;
+background-color: alice black;
+float: left;
+width:100%;
+height: 300px;
+margin-top:8px;
+margin-left:50px;
+left: 500px;
+padding: left 50px;
+position: absolute;
+
+}
+.d2{
+border: 1px solid block;
+background-color:;
+clear:left;
+float: right;
+width: 15px;
+margin-top:60px;
+margin-right:20%;
+height:30px;
+
+}
+.h{
+border: 2px solid block;
+width:100%;
+margin-left:0px;
+padding:0px;
+height:60px;
+text-size-adjust: 40px;
+
+
+}
+.clearfix:after{
+content:"":
+clear:both;
+float:table;
+}
+#search-text-input{
+	border-top:thin solid #e5e5e5;
+	border-right:thin solid #e5e5e5;
+	border-bottom:0;
+	border-left:thin solid #e5e5e5;
+	box-shadow:0px 1px 1px 1px #e5e5e5;
+	height:60px;
+	margin:.8em 0 0 .5em;
+	outline:0;
+	padding:.4em 0 .4em .6em;
+	width:190px;
+
+}
+	
+#button-holder{
+	background-color:#f1f1f1;
+	border-top:thin solid #e5e5e5;
+	box-shadow:0px 1px 1px 1px black;
+	cursor:pointer;
+	float:left;
+	height:40px;
+	margin:11px 4 11 0;
+	text-align:center;
+	width:30px;
+}
+#button-holder img{
+	margin:10px;
+	width:20px;
+}
+.b{
+	background-image:url("https://media.istockphoto.com/id/175400834/photo/blue-wall-texture.jpg?b=1&s=170667a&w=0&k=20&c=jUGB82E0z1Fk0Zd5nZzUbKIcTxnu0MRxOc8jMHemlKc=");
+	background-repeat:no-repeat,repeat;
+	background-size:100%,100%;
+}
+
+.nav-item{
+    font-size:18px;
+    padding-top:5px;
+    padding-bottom:8px;
+    margin:5px;
+	width:60px;
+    background-color:white;
+        
+}
+
+</style>
+</head>
+<body class="b">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html"><b>HOME</b></a>
+                    </li>
+<form action='signup1.php' method='post' enctype='multipart/form-data'>
+<div class='h' align="center"><b><h1>   FACULTY REGISTRATION FORM</h1></b></div>
+<div class="d1">
+<table>
+<tr><td><span class="label label-info">NAME :</span></td>
+    <td>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input required id='name' type='text' class='form-control' placeholder='enter your name' name='name'>
+    </td>
+</tr>
+    </div>
+<tr><td><span class="label label-info">FATHER NAME:</span></td><td><div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input required id='fname' type='text' class='form-control' placeholder='enter your fathers name' name='fname'></td></tr>
+</div>
+
+<tr><td><span class="label label-info">GENDER:</span></td><td><input type='radio' name='gender' value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="male">Male</label>
+  <input type="radio" id="javascript" name="fav_language" value="other">
+  <label for="other">Other</label></td></tr>
+
+<tr><td><span class="label label-info">DATE OF BIRTH</span></td><td><div class="input-group">
+	<span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span><input id='dob' type='date' class='form-control' placeholder='dd/mm/yyyy' name='dob'></td>
+
+<tr><td><span class="label label-info">DESIGNATION</span></td><td>
+	<select name='desg'>
+		<option>--select--</option>
+		<option>Faculty</option>
+		<option>Others</option>
+		</select>
+</td></tr>
+<tr><td><span class="label label-info">QUALIFICATION:</span></td><td>
+	<select name='qual'>
+		<option>--select--</option>
+		<option value="UG">B.TECH</option>
+		<option value="PG">M.TECH</option>
+		<option value="PG">MBA</option>
+		<option value="PG">MCA</option>
+		<option value="PG">OTHERS</option>
+		</select>
+</td></tr>
+
+<tr>
+    <td><span class="label label-info">ADDRESS:</span></td>
+    <td><div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><textarea id='add' class='form-control' placeholder='enter your address' name='addr' rows=6 cols=14></textarea></td></tr>
+    </div>
+
+<tr><td><span class="label label-info">E-MAIL:</span></td><td><div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span><input required id='email' type='email' class='form-control' placeholder='enter ur email-id.....' name='email'></td></tr>
+</div>
+
+<tr><td><span class="label label-info">MOBILE NO :</span></td><td><div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span><input required id='mble' type='text' class='form-control' placeholder='enter ur mobile number.....' name='mobile'></td></tr>
+</div>
+<tr><td cols=2><input type='checkbox' name='check' value='agree'>I agree all the terms and conditions</td>
+</div>
+<td><input type=submit name='submit' value='submit'></td></tr>
+</div>
+</table>
+<br><a href="student_res.html">STUDENT REGISTRATION</a>
+</div>
+</form>
+</body>
+</html>
+<script language="javascript">
+function previewFile(){
+       var preview = document.querySelector('img'); //selects the query named img
+       var file    = document.querySelector('input[type=file]').files[0]; //sames as here
+       var reader  = new FileReader();
+
+       reader.onloadend = function () {
+           preview.src = reader.result;
+       }
+
+       if (file) {
+           reader.readAsDataURL(file); //reads the data as a URL
+       } else {
+           preview.src = "";
+       }
+  }
+
+  previewFile();  //calls the function named previewFile()
+</script>

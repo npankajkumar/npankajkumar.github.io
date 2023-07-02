@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align:center;
+    text-decoration:underline;
+    color:black;
+
+
+}
+body{
+    background-color:cadetblue;
+}
+#name{
+    width:80%;
+    padding:10px;
+    border-radius:5%;
+    outline:0;
+    border:1px solid lightgray;
+}
+table{
+    color:aliceblue;
+    background-color: rgb(8, 48, 80);
+    border-collapse: collapse;
+    font-size:16px;
+    font-family:serif;
+    padding: 5px;
+    border:6px solid white;
+    text-align:-webkit-center;
+}
